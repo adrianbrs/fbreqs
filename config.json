@@ -1,6 +1,6 @@
 {
   "app": {
-    "name": "Fake Mass Request",
+    "name": "Fake Bulk Requests",
     "version": "v0.0.1 (BETA)",
     "shell": {
       "width": 65
@@ -8,7 +8,7 @@
   },
   "request": {
     "amount": 5,
-    "url": "http://localhost/testcaixa.php",
+    "url": "http://localhost/testPost.php",
     "proxy": {
       "random": true,
       "list": []

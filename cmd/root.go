@@ -14,8 +14,8 @@ var (
 )
 
 var rootCmd = &cobra.Command{
-	Use:   "fkpost",
-	Short: "Envia dados falos à uma URL através do método Http POST.",
+	Use:   "fmreqs",
+	Short: "Envia várias requisições simultâneas para um determinado URL.",
 	Run: func(cmd *cobra.Command, args []string) {
 		cmd.Usage()
 	},
