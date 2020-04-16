@@ -83,11 +83,14 @@ func Run(client *client.Client) {
 		}(i, &waitGroup)
 	}
 
-	// Wait for wait group to continue
-	waitGroup.Wait()
+	// Create goroutin to wait wait group
+	go func(wg *sync.WaitGroup, reqChan chan *Sender) {
+		// Wait for wait group to continue
+		waitGroup.Wait()
 
-	// Close reqChannel after wait group wait
-	close(reqChannel)
+		// Close reqChannel after wait group wait
+		close(reqChannel)
+	}(&waitGroup, reqChannel)
 
 	// Count of successfully requests
 	successRequests := 0

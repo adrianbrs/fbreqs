@@ -1,0 +1,17 @@
+{
+  "app": {
+    "name": "Fake Bulk Request",
+    "version": "v0.0.1 (BETA)",
+    "shell": {
+      "width": 65
+    }
+  },
+  "request": {
+    "amount": 5,
+    "url": "http://localhost/postTest.php",
+    "proxy": {
+      "random": true,
+      "list": []
+    }
+  }
+}

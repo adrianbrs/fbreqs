@@ -1,6 +1,6 @@
 {
   "app": {
-    "name": "Fake Bulk Requests",
+    "name": "Fake Bulk Request",
     "version": "v0.0.1 (BETA)",
     "shell": {
       "width": 65
@@ -8,10 +8,10 @@
   },
   "request": {
     "amount": 5,
-    "url": "http://localhost/testPost.php",
+    "url": "https://reqtesting.000webhostapp.com/post.php",
     "proxy": {
       "random": true,
-      "list": []
+      "list": ["http://169.48.152.174:3128", "http://94.23.30.184:3128"]
     }
   }
 }
