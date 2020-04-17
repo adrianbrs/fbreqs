@@ -1,9 +1,9 @@
 package sender
 
 import (
-	"caixa-falso/client"
-	"caixa-falso/console"
 	"encoding/json"
+	"fbreqs/client"
+	"fbreqs/console"
 	"fmt"
 	"net/http"
 	"sync"

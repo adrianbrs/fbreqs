@@ -1,9 +1,9 @@
 package cmd
 
 import (
-	"caixa-falso/client"
-	"caixa-falso/console"
-	"caixa-falso/sender"
+	"fbreqs/client"
+	"fbreqs/console"
+	"fbreqs/sender"
 	"strings"
 
 	"github.com/spf13/cobra"

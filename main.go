@@ -1,8 +1,8 @@
 package main
 
 import (
-	"caixa-falso/cmd"
-	"caixa-falso/random"
+	"fbreqs/cmd"
+	"fbreqs/random"
 	"log"
 	"os"
 )

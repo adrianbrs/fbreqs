@@ -1,7 +1,7 @@
 package cmd
 
 import (
-	"caixa-falso/console"
+	"fbreqs/console"
 	"fmt"
 
 	"github.com/spf13/viper"

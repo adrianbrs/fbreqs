@@ -1,8 +1,8 @@
 package client
 
 import (
-	"caixa-falso/console"
-	"caixa-falso/random"
+	"fbreqs/console"
+	"fbreqs/random"
 	"net/url"
 	"strings"
 

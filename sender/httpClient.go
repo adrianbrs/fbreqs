@@ -1,7 +1,7 @@
 package sender
 
 import (
-	"caixa-falso/client"
+	"fbreqs/client"
 	"net/http"
 )
 
